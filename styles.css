@@ -1,0 +1,70 @@
+body {
+	background: black;
+	margin: 100px;
+}
+
+/* demarcar el margen */
+/** {
+	border: 1px dashed red;
+	min-height: 10px;
+}*/
+
+/* class selector*/
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+/* apply DISPLAY to the class*/
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header h1 {
+	width: 350px;
+	height: 50px;
+	margin: auto;
+	padding-left: 5%;
+	font-style: italic;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	padding-right: 15%;
+}
+
+/*display flexto to other div postcard-header*/
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: auto;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button:hover {
+	background-color: gainsboro;
+	padding: 0%;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid gray;
+}
+
+/* body´s LandR paddin*/
+.body-left,
+.body-right {
+	padding: 3%;
+}
+
+p {
+	font-style: italic;
+}
